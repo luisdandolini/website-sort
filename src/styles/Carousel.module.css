@@ -1,0 +1,76 @@
+.title {
+  padding: 8rem 12rem 3rem 12rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.container_immobile {
+  background-image: url('/background.jpg');
+  width: 300px;
+  height: 340px;
+  border-radius: .8rem;
+}
+
+.sell {
+  text-align: center;
+  margin: auto;
+  background-color: rgb(0, 104, 0);
+  width: 100px;
+  border-radius: 1rem;
+  margin-top: .5rem;
+  color: #FFFFFF;
+}
+
+.immobile {
+  margin-top: 10rem;
+  margin-left: 1.5rem;
+  color: #FFFFFF;
+}
+
+.immobile p {
+  margin-bottom: .2rem;
+}
+
+.immobile span {
+  font-size: .8rem;
+  margin-left: 1.5rem;
+}
+
+.price {
+  width: 190px;
+  background-color:  rgb(0, 104, 0);
+  border-radius: .5rem;
+  position: relative;
+  right: 30px;
+  color: #FFFFFF;
+  padding: .2rem .5rem;
+  margin-top: 1rem;
+}
+
+.price span {
+  font-size: 1.2rem;
+  margin-left: 5px;
+}
+
+.container_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(96, 93, 93);
+  height: 50px;
+  border-radius: .5rem;
+  color: #FFFFFF;
+  font-size: .8rem;
+  gap: 4rem;
+}
+
+.view_immobile {
+  background-color: orange;
+  padding: .2rem 1.2rem;
+  border-radius: 1rem;
+}
